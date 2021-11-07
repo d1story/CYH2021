@@ -264,3 +264,4 @@ Received Import Request.
 Start importing Assets/Waldemarst/JapaneseGardenPackage/Prefabs/SakuraTree_A.prefab using Guid(1d346702b2107531e939003fb256261b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603eb405d05472ee4b731a85b2827336') in 0.048577 seconds 
   Import took 0.050749 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
