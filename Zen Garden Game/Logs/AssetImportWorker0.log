@@ -1,0 +1,124 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1288; Version 2009; 64bit' Language: 'en' Physical Memory: 16250 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Allan/Documents/GitHub/CYH2021/Zen Garden Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56541
+Successfully changed project path to: C:/Users/Allan/Documents/GitHub/CYH2021/Zen Garden Game
+C:/Users/Allan/Documents/GitHub/CYH2021/Zen Garden Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 276.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Allan/Documents/GitHub/CYH2021/Zen Garden Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1070 with Max-Q Design (ID=0x1ba1)
+    Vendor:   
+    VRAM:     8082 MB
+    Driver:   30.0.14.7141
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity Editor/2020.3.12f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003641 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 108.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.272 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007265 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 139.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.726 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 164.9 MB.
+System memory in use after: 164.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3568.
+Total: 6.325100 ms (FindLiveObjects: 0.597200 ms CreateObjectMapping: 0.309200 ms MarkObjects: 4.920000 ms  DeleteObjects: 0.496700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/moss.terrainlayer
+  artifactKey: Guid(56b2820651de357459e8d89d2b4f3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/moss.terrainlayer using Guid(56b2820651de357459e8d89d2b4f3f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6f88a0042ad97a65e2312f775b8dfc') in 0.237693 seconds 
+  Import took 0.247690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 295.817457 seconds.
+  path: Assets/NatureStarterKit/Models/rock03.fbx
+  artifactKey: Guid(901490205d4d95e4d8fd461462b7c61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit/Models/rock03.fbx using Guid(901490205d4d95e4d8fd461462b7c61a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55fc7cd783a2d11ea5be3ec8ee24c08') in 0.183040 seconds 
+  Import took 0.192764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.635591 seconds.
+  path: Assets/NatureStarterKit/Models/rock02.fbx
+  artifactKey: Guid(d4f42247e4fd5aa469325fdd13e321b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit/Models/rock02.fbx using Guid(d4f42247e4fd5aa469325fdd13e321b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2136e95369a24ba946572b610686daf') in 0.036930 seconds 
+  Import took 0.048090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.570563 seconds.
+  path: Assets/NatureStarterKit/Models/rock04.fbx
+  artifactKey: Guid(0d390c947ceb79940aa697ab6e3a3542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit/Models/rock04.fbx using Guid(0d390c947ceb79940aa697ab6e3a3542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a8c451ce19ef8afd6df1e42203c085e') in 0.034199 seconds 
+  Import took 0.042453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 441.447518 seconds.
+  path: Assets/NatureStarterKit/Models/Tree_Textures
+  artifactKey: Guid(ade7a8d4424cae44882c657c698276bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit/Models/Tree_Textures using Guid(ade7a8d4424cae44882c657c698276bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4693733224759acbd308870cee255d2') in 0.008980 seconds 
+  Import took 0.017946 seconds .
+
