@@ -328,3 +328,4 @@ Received Import Request.
 Start importing Assets/_TerrainAutoUpgrade/layer_groundgrass01ground01Nb2e386cdaf7e7ee2.terrainlayer using Guid(fe011237bd10b36489d92a3f1c126aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf031308b2bb374d4fde7cf3a910eba6') in 0.019272 seconds 
   Import took 0.027921 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
