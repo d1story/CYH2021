@@ -322,3 +322,48 @@ Received Import Request.
 Start importing Assets/Scenes/Main Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ce97468f11910956bdfe8343b8a906') in 0.005114 seconds 
   Import took 0.013821 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 352.577781 seconds.
+  path: Assets/TerrainData_275218c8-529f-454c-89c7-34a58f38d8cf.asset
+  artifactKey: Guid(b7facdf80540e804ea34ecac31d3a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_275218c8-529f-454c-89c7-34a58f38d8cf.asset using Guid(b7facdf80540e804ea34ecac31d3a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
+
+The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
+
+ -> (artifact id: '147e281e487167eee5354464ad1aea08') in 0.088347 seconds 
+  Import took 0.095943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/TerrainData_f8c0ca96-6384-4689-8671-7ed6f6cbf2ec.asset
+  artifactKey: Guid(9f638e639c8a5e443bc58b0f23c95ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_f8c0ca96-6384-4689-8671-7ed6f6cbf2ec.asset using Guid(9f638e639c8a5e443bc58b0f23c95ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
+
+The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
+
+ -> (artifact id: '6cf28ff390b5082d3948f366179aa4fd') in 0.063206 seconds 
+  Import took 0.070959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/TerrainData_afeb4f13-7574-414f-899e-938da1654186.asset
+  artifactKey: Guid(2038bc567825f944fac3a9b0f1af034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_afeb4f13-7574-414f-899e-938da1654186.asset using Guid(2038bc567825f944fac3a9b0f1af034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
+
+The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
+
+ -> (artifact id: '9ec830cbb3783c3a65e8fda823f7f411') in 0.134613 seconds 
+  Import took 0.142500 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
