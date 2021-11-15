@@ -15,11 +15,11 @@ C:/Users/Allan/Documents/GitHub/CYH2021/Zen Garden Game
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61816
+52772
 Successfully changed project path to: C:/Users/Allan/Documents/GitHub/CYH2021/Zen Garden Game
 C:/Users/Allan/Documents/GitHub/CYH2021/Zen Garden Game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 76.88 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -36,41 +36,41 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity Editor/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity Editor/2020.3.12f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002438 seconds.
+Registered in 0.002423 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 57.68 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 61.80 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.137 seconds
+- Completed reload, in  1.123 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005021 seconds.
+Registered in 0.004998 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 59.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 59.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.189 seconds
+- Completed reload, in  1.153 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 170.2 MB.
+System memory in use before: 170.3 MB.
 System memory in use after: 170.3 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3572.
-Total: 2.437000 ms (FindLiveObjects: 0.272200 ms CreateObjectMapping: 0.128700 ms MarkObjects: 1.858000 ms  DeleteObjects: 0.177000 ms)
+Total: 2.630900 ms (FindLiveObjects: 0.410200 ms CreateObjectMapping: 0.167700 ms MarkObjects: 1.874800 ms  DeleteObjects: 0.177200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -85,285 +85,247 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/TerrainData_f8c0ca96-6384-4689-8671-7ed6f6cbf2ec.asset
-  artifactKey: Guid(9f638e639c8a5e443bc58b0f23c95ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_f8c0ca96-6384-4689-8671-7ed6f6cbf2ec.asset using Guid(9f638e639c8a5e443bc58b0f23c95ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
-
-The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
-
- -> (artifact id: '0e3a80a75b7e80c134dfa849dc534b97') in 0.131435 seconds 
-  Import took 0.137811 seconds .
+  path: Assets/bamboo.fbx
+  artifactKey: Guid(fb49cb1ff368c4846a09c68f202c311a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/bamboo.fbx using Guid(fb49cb1ff368c4846a09c68f202c311a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583b98165f48a2d91d35a75ff22dc0d8') in 0.281745 seconds 
+  Import took 0.288292 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/TerrainData_275218c8-529f-454c-89c7-34a58f38d8cf.asset
-  artifactKey: Guid(b7facdf80540e804ea34ecac31d3a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_275218c8-529f-454c-89c7-34a58f38d8cf.asset using Guid(b7facdf80540e804ea34ecac31d3a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
-
-The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
-
- -> (artifact id: 'e9f0fda1ffde0390ee031ed935d302b9') in 0.036732 seconds 
-  Import took 0.043539 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/TerrainData_48ae47ec-4ec6-4c66-a268-1e55351e61e5.asset
-  artifactKey: Guid(94251b874c50ada46bb9b3bf08fa30ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_48ae47ec-4ec6-4c66-a268-1e55351e61e5.asset using Guid(94251b874c50ada46bb9b3bf08fa30ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
-
-The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
-
- -> (artifact id: '02074d943a9a7b2767851dda696b954b') in 0.134997 seconds 
-  Import took 0.144131 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/TerrainData_e0000599-89b8-40a6-97e6-6acaa2f017df.asset
-  artifactKey: Guid(eee4649a4ca07604ca5417d55dfe92d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_e0000599-89b8-40a6-97e6-6acaa2f017df.asset using Guid(eee4649a4ca07604ca5417d55dfe92d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3dc07a583fce50c83db1ae633e63f68') in 0.017104 seconds 
-  Import took 0.022634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
+  Time since last request: 309.316516 seconds.
   path: Assets/New Terrain 1.asset
   artifactKey: Guid(24138458eb2be9649b91260297b2242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/New Terrain 1.asset using Guid(24138458eb2be9649b91260297b2242f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
 
 The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
 
- -> (artifact id: '043dff4e01cd0eaa82b7a5c0881cfb20') in 0.142545 seconds 
-  Import took 0.151098 seconds .
+ -> (artifact id: 'c02bbe563450598376a0766098a884b9') in 0.162596 seconds 
+  Import took 0.171478 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006972 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.100 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2961 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.7 MB.
+System memory in use after: 160.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3623.
+Total: 3.258800 ms (FindLiveObjects: 0.408800 ms CreateObjectMapping: 0.181200 ms MarkObjects: 2.402100 ms  DeleteObjects: 0.265600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 572.905458 seconds.
+  path: Assets/HolyShift/Scenes
+  artifactKey: Guid(38915238401f14f43bec960cffe4b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolyShift/Scenes using Guid(38915238401f14f43bec960cffe4b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3231b09a032ec8b3845b00f13727975') in 0.010821 seconds 
+  Import took 0.016835 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/TerrainData_afeb4f13-7574-414f-899e-938da1654186.asset
-  artifactKey: Guid(2038bc567825f944fac3a9b0f1af034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_afeb4f13-7574-414f-899e-938da1654186.asset using Guid(2038bc567825f944fac3a9b0f1af034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
-
-The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
-
- -> (artifact id: 'ac66cd0347294bdfde86e32e930f0a10') in 0.112227 seconds 
-  Import took 0.119058 seconds .
+  Time since last request: 1.246354 seconds.
+  path: Assets/HolyShift/Prefabs
+  artifactKey: Guid(748597e836b51436a8ef658ff8689cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolyShift/Prefabs using Guid(748597e836b51436a8ef658ff8689cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90606f22556e5b3daf1a6d3398b3408a') in 0.018087 seconds 
+  Import took 0.026510 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/TerrainData_f9852618-1d27-4613-ad97-48fa95c76d3b.asset
-  artifactKey: Guid(69a945d661625044888d60e21e4885ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_f9852618-1d27-4613-ad97-48fa95c76d3b.asset using Guid(69a945d661625044888d60e21e4885ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '71e4b9e4b7de91f28600429f7d69ce85') in 0.100601 seconds 
-  Import took 0.107796 seconds .
+  Time since last request: 0.000907 seconds.
+  path: Assets/HolyShift/Prefabs
+  artifactKey: Guid(748597e836b51436a8ef658ff8689cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolyShift/Prefabs using Guid(748597e836b51436a8ef658ff8689cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90606f22556e5b3daf1a6d3398b3408a') in 0.007148 seconds 
+  Import took 0.021352 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/TerrainData_a1592932-40e5-4457-8cf1-9708bfdb0d89.asset
-  artifactKey: Guid(44c2b17f289063340a8f4cd57a96851a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_a1592932-40e5-4457-8cf1-9708bfdb0d89.asset using Guid(44c2b17f289063340a8f4cd57a96851a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: '467ee2e6f41bd698792ea2ac38f96260') in 0.023807 seconds 
-  Import took 0.033636 seconds .
+  Time since last request: 0.063255 seconds.
+  path: Assets/HolyShift/Prefabs/Water.prefab
+  artifactKey: Guid(bc4f23d04e42f4b559542ad840db6530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolyShift/Prefabs/Water.prefab using Guid(bc4f23d04e42f4b559542ad840db6530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa4d5a1ea57454a9a9d5501651eb9fd') in 0.062925 seconds 
+  Import took 0.071326 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/TerrainData_7368b72f-a102-4188-925b-321e82775dc1.asset
-  artifactKey: Guid(75dfb8fb7b884df4cbf0fa7201c7dab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_7368b72f-a102-4188-925b-321e82775dc1.asset using Guid(75dfb8fb7b884df4cbf0fa7201c7dab5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4788ea5bff0aed2e6f00868581dbab5') in 0.029117 seconds 
-  Import took 0.036411 seconds .
+  Time since last request: 124.076779 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/dirt.terrainlayer
+  artifactKey: Guid(c25f012d8eaba684b9a392d71f427372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/dirt.terrainlayer using Guid(c25f012d8eaba684b9a392d71f427372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de21207e56875d7892c31d45ae1171b') in 0.028482 seconds 
+  Import took 0.035886 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/TerrainData_5107a506-f287-419f-9ac2-33dba9e6199a.asset
-  artifactKey: Guid(c0d798358c1809a469a900f738f97701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_5107a506-f287-419f-9ac2-33dba9e6199a.asset using Guid(c0d798358c1809a469a900f738f97701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
- -> (artifact id: 'c9f322392705fbc2d981158ec0397639') in 0.030738 seconds 
-  Import took 0.042501 seconds .
+  Time since last request: 0.005946 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/dirt.terrainlayer
+  artifactKey: Guid(c25f012d8eaba684b9a392d71f427372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/dirt.terrainlayer using Guid(c25f012d8eaba684b9a392d71f427372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de21207e56875d7892c31d45ae1171b') in 0.016010 seconds 
+  Import took 0.023874 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/TerrainData_bfacf90c-fd61-442f-ba20-eb6912c6e8b0.asset
-  artifactKey: Guid(659d63737856bfa40b608cdad23d342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_bfacf90c-fd61-442f-ba20-eb6912c6e8b0.asset using Guid(659d63737856bfa40b608cdad23d342c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
-
-The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
-
- -> (artifact id: 'e0a3975413f0886ed47071afb6b79c73') in 0.119759 seconds 
-  Import took 0.126892 seconds .
+  Time since last request: 88.031983 seconds.
+  path: Assets/HolyShift/Meshes/GroundRollingStone.fbx
+  artifactKey: Guid(9d1427ad240df40799a197d044bb4cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolyShift/Meshes/GroundRollingStone.fbx using Guid(9d1427ad240df40799a197d044bb4cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a314b470d5062b74d2f67ccfad679857') in 0.174789 seconds 
+  Import took 0.180822 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 250.605794 seconds.
-  path: Assets/bamboo.blend
-  artifactKey: Guid(0ea1ecb05daea1c46830a60a018071ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bamboo.blend using Guid(0ea1ecb05daea1c46830a60a018071ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858a375080d7ee1c9b7fa623bc8d6778') in 0.009796 seconds 
-  Import took 0.016017 seconds .
+  Time since last request: 0.000343 seconds.
+  path: Assets/HolyShift/Meshes/Mountain1.fbx
+  artifactKey: Guid(ed9ebaa8a9f8841d88aaa7d5e0551a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolyShift/Meshes/Mountain1.fbx using Guid(ed9ebaa8a9f8841d88aaa7d5e0551a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e6ae3de08e292fe7377ce6f8960735') in 0.021942 seconds 
+  Import took 0.029925 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001830 seconds.
-  path: Assets/bamboo.blend
-  artifactKey: Guid(0ea1ecb05daea1c46830a60a018071ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/bamboo.blend using Guid(0ea1ecb05daea1c46830a60a018071ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858a375080d7ee1c9b7fa623bc8d6778') in 0.002831 seconds 
-  Import took 0.008684 seconds .
+  Time since last request: 26.994655 seconds.
+  path: Assets/HolyShift/Materials/LowPolyBase.mat
+  artifactKey: Guid(05a6462b5fca44df4b67ce7d40906d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolyShift/Materials/LowPolyBase.mat using Guid(05a6462b5fca44df4b67ce7d40906d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd46244f8a2f7a7deb72c9bc55226048b') in 0.027516 seconds 
+  Import took 0.033260 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.220554 seconds.
-  path: Assets/TerrainData_48ae47ec-4ec6-4c66-a268-1e55351e61e5.asset
-  artifactKey: Guid(94251b874c50ada46bb9b3bf08fa30ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_48ae47ec-4ec6-4c66-a268-1e55351e61e5.asset using Guid(94251b874c50ada46bb9b3bf08fa30ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
-
-The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
-
- -> (artifact id: '6aedbf57b8101e5520813d46d99f46ed') in 0.114489 seconds 
-  Import took 0.124528 seconds .
+  Time since last request: 0.000297 seconds.
+  path: Assets/HolyShift/Materials/LowPolyWater.mat
+  artifactKey: Guid(dba33a2bf8b23400bacf323fc2816a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolyShift/Materials/LowPolyWater.mat using Guid(dba33a2bf8b23400bacf323fc2816a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4d0ef8b9cf6ee11659ec440b276ca5') in 0.016794 seconds 
+  Import took 0.022882 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/TerrainData_866ec261-227a-4f89-a366-1ef2440e81c4.asset
-  artifactKey: Guid(13c9364b2a485d94d86cecc7b1777795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_866ec261-227a-4f89-a366-1ef2440e81c4.asset using Guid(13c9364b2a485d94d86cecc7b1777795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05bf1ff81bd802a1227705aba7737f1') in 0.015123 seconds 
-  Import took 0.021128 seconds .
+  Time since last request: 0.000379 seconds.
+  path: Assets/HolyShift/Materials/LowPolyDark.mat
+  artifactKey: Guid(88127c0a741fb41419f98cddb1aef10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolyShift/Materials/LowPolyDark.mat using Guid(88127c0a741fb41419f98cddb1aef10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936cc46ea4541793820c503cef70356f') in 0.018637 seconds 
+  Import took 0.025885 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007497 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.142 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2958 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 160.4 MB.
+System memory in use after: 160.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3629.
+Total: 2.659800 ms (FindLiveObjects: 0.325400 ms CreateObjectMapping: 0.142800 ms MarkObjects: 2.041600 ms  DeleteObjects: 0.148900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2660.313308 seconds.
+  path: Assets/NatureStarterKit/Scenes
+  artifactKey: Guid(b5c0ad0cd6d47e34e9dc4d1bbad11924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NatureStarterKit/Scenes using Guid(b5c0ad0cd6d47e34e9dc4d1bbad11924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ad6e2818f5c321e68697739f429a861') in 0.047291 seconds 
+  Import took 0.075877 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/TerrainData_f8c0ca96-6384-4689-8671-7ed6f6cbf2ec.asset
-  artifactKey: Guid(9f638e639c8a5e443bc58b0f23c95ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_f8c0ca96-6384-4689-8671-7ed6f6cbf2ec.asset using Guid(9f638e639c8a5e443bc58b0f23c95ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
-
-The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
-
- -> (artifact id: '604b84d5f140db60f018aabaeba48471') in 0.031449 seconds 
-  Import took 0.038406 seconds .
+  Time since last request: 1921.782393 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(08bbc22bd6df92048a0718860ef1e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(08bbc22bd6df92048a0718860ef1e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1990b6cf9cdd97b86eccf6e52326fae6') in 0.005701 seconds 
+  Import took 0.026505 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000551 seconds.
-  path: Assets/TerrainData_71cfd8c7-0d1b-4c9a-b772-f040e9f0ee9d.asset
-  artifactKey: Guid(ee29e40f794f7c3418c3f729e92228c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_71cfd8c7-0d1b-4c9a-b772-f040e9f0ee9d.asset using Guid(ee29e40f794f7c3418c3f729e92228c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9ca893cd43312c38a0575537177a72') in 0.019760 seconds 
-  Import took 0.027784 seconds .
+  Time since last request: 0.003349 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(08bbc22bd6df92048a0718860ef1e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(08bbc22bd6df92048a0718860ef1e9a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1990b6cf9cdd97b86eccf6e52326fae6') in 0.006455 seconds 
+  Import took 0.021237 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/TerrainData_275218c8-529f-454c-89c7-34a58f38d8cf.asset
-  artifactKey: Guid(b7facdf80540e804ea34ecac31d3a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_275218c8-529f-454c-89c7-34a58f38d8cf.asset using Guid(b7facdf80540e804ea34ecac31d3a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
-
-The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
-
- -> (artifact id: '0649a70a361ac72adbd0d1f394a580e0') in 0.029559 seconds 
-  Import took 0.035718 seconds .
+  Time since last request: 60.448851 seconds.
+  path: Assets/Scenes/Main Scene 2.unity
+  artifactKey: Guid(376c2cb958759844e8a8d6d15222d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene 2.unity using Guid(376c2cb958759844e8a8d6d15222d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0acf07814002066a82ed84fd16adcd61') in 0.234801 seconds 
+  Import took 0.240585 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/TerrainData_d4b48d6a-04e9-423a-b09e-7b9e089ffc3a.asset
-  artifactKey: Guid(8f1316792cc540741ab1a45954272237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_d4b48d6a-04e9-423a-b09e-7b9e089ffc3a.asset using Guid(8f1316792cc540741ab1a45954272237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca4742068c0402d94a0340d717653667') in 0.020344 seconds 
-  Import took 0.030154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 101.601854 seconds.
+  Time since last request: 852.615387 seconds.
   path: Assets/Scenes/Main Scene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ce97468f11910956bdfe8343b8a906') in 0.015936 seconds 
-  Import took 0.023699 seconds .
+Start importing Assets/Scenes/Main Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e33cd2efa111e15cb35ea663a845e0') in 0.014522 seconds 
+  Import took 0.030593 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000726 seconds.
-  path: Assets/Scenes/Main Scene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Main Scene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ce97468f11910956bdfe8343b8a906') in 0.005114 seconds 
-  Import took 0.013821 seconds .
+  Time since last request: 12.665273 seconds.
+  path: Assets/Scenes/Main Scene 2.unity
+  artifactKey: Guid(376c2cb958759844e8a8d6d15222d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene 2.unity using Guid(376c2cb958759844e8a8d6d15222d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b764e427b65d90a08498563bd7cc5c2') in 0.006913 seconds 
+  Import took 0.018082 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 352.577781 seconds.
-  path: Assets/TerrainData_275218c8-529f-454c-89c7-34a58f38d8cf.asset
-  artifactKey: Guid(b7facdf80540e804ea34ecac31d3a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_275218c8-529f-454c-89c7-34a58f38d8cf.asset using Guid(b7facdf80540e804ea34ecac31d3a6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
-
-The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
-
- -> (artifact id: '147e281e487167eee5354464ad1aea08') in 0.088347 seconds 
-  Import took 0.095943 seconds .
+  Time since last request: 1208.338300 seconds.
+  path: Assets/AddOns/Mg3D_TilingTextures/Textures/NewLayer 1.terrainlayer
+  artifactKey: Guid(d4463c495dc65e942a984a6e8f24e427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AddOns/Mg3D_TilingTextures/Textures/NewLayer 1.terrainlayer using Guid(d4463c495dc65e942a984a6e8f24e427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '238e0c582d8937c2dd09a82d57cb1b29') in 0.210456 seconds 
+  Import took 0.225702 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/TerrainData_f8c0ca96-6384-4689-8671-7ed6f6cbf2ec.asset
-  artifactKey: Guid(9f638e639c8a5e443bc58b0f23c95ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_f8c0ca96-6384-4689-8671-7ed6f6cbf2ec.asset using Guid(9f638e639c8a5e443bc58b0f23c95ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
-
-The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
-
- -> (artifact id: '6cf28ff390b5082d3948f366179aa4fd') in 0.063206 seconds 
-  Import took 0.070959 seconds .
+  Time since last request: 0.944855 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer
+  artifactKey: Guid(aa7afa2eb72909e4d8083508573d955f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainLayers/sand.terrainlayer using Guid(aa7afa2eb72909e4d8083508573d955f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9810c8457ca41676a92d383536e2d21') in 0.020798 seconds 
+  Import took 0.026179 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000528 seconds.
-  path: Assets/TerrainData_afeb4f13-7574-414f-899e-938da1654186.asset
-  artifactKey: Guid(2038bc567825f944fac3a9b0f1af034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TerrainData_afeb4f13-7574-414f-899e-938da1654186.asset using Guid(2038bc567825f944fac3a9b0f1af034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Tree must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
-
-The tree Grass2 couldn't be instanced because the prefab contains no valid mesh renderer.
-
-The tree Grass couldn't be instanced because the prefab contains no valid mesh renderer.
-
- -> (artifact id: '9ec830cbb3783c3a65e8fda823f7f411') in 0.134613 seconds 
-  Import took 0.142500 seconds .
+  Time since last request: 6.678287 seconds.
+  path: Assets/_TerrainAutoUpgrade/layer_groundgrass01ground01Nb2e386cdaf7e7ee2.terrainlayer
+  artifactKey: Guid(fe011237bd10b36489d92a3f1c126aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_TerrainAutoUpgrade/layer_groundgrass01ground01Nb2e386cdaf7e7ee2.terrainlayer using Guid(fe011237bd10b36489d92a3f1c126aa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf031308b2bb374d4fde7cf3a910eba6') in 0.019272 seconds 
+  Import took 0.027921 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
