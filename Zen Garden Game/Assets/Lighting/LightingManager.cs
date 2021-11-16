@@ -32,6 +32,7 @@ public class LightingManager : MonoBehaviour
         {
             UpdateLighting(TimeOfDay / 24f);
         }
+
         sozuTimer += 1f;//60fps means + 60 for each second.
         if (sozuTimer > (60 * 10))
         {//play sozu sound and animate every ten seconds.
