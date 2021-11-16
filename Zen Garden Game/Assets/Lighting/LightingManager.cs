@@ -8,7 +8,13 @@ public class LightingManager : MonoBehaviour
     [SerializeField] private LightingPreset Preset;
     //Variables
     [SerializeField, Range(0, 24)] private float TimeOfDay;
-
+    [SerializeField] private GameObject sozu;
+    private Animator sozuAnimation;
+    private float sozuTimer = 0;
+    private void Start()
+    {
+        sozuAnimation = sozu.GetComponent<Animator>();//find animation on sozu game object.
+    }
 
     private void Update()
     {
@@ -25,6 +31,13 @@ public class LightingManager : MonoBehaviour
         else
         {
             UpdateLighting(TimeOfDay / 24f);
+        }
+        sozuTimer += 1f;//60fps means + 60 for each second.
+        if (sozuTimer > (60 * 10))
+        {//play sozu sound and animate every ten seconds.
+            Debug.Log("Time: " + sozuTimer);
+            sozuTimer = 0;
+            sozuAnimation.Play("Pour");
         }
     }
 

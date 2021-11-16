@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 376675344}
-  m_IndirectSpecularColor: {r: 0.18288356, g: 0.22858097, b: 0.30692464, a: 1}
+  m_IndirectSpecularColor: {r: 0.18288386, g: 0.22858128, b: 0.30692506, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1090,6 +1090,8 @@ GameObject:
   - component: {fileID: 92996053}
   - component: {fileID: 92996055}
   - component: {fileID: 92996054}
+  - component: {fileID: 92996058}
+  - component: {fileID: 92996057}
   m_Layer: 0
   m_Name: bamboo_cut.004
   m_TagString: Untagged
@@ -1105,7 +1107,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92996052}
   m_LocalRotation: {x: 0.00000007158275, y: -0.00000003888057, z: -0.47729447, w: 0.87874347}
-  m_LocalPosition: {x: 1.2, y: 51.7, z: 22.8}
+  m_LocalPosition: {x: 1.7, y: 50.8, z: 21.1}
   m_LocalScale: {x: 85.903015, y: 104.56082, z: 77.315704}
   m_Children: []
   m_Father: {fileID: 54123830}
@@ -1163,6 +1165,41 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92996052}
   m_Mesh: {fileID: 7502593083615395298, guid: fb49cb1ff368c4846a09c68f202c311a, type: 3}
+--- !u!111 &92996057
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92996052}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 2140bfd9a6d81a84ba4de36dd4b9cd14, type: 2}
+  m_Animations:
+  - {fileID: 0}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!95 &92996058
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92996052}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ceace2c0039986d4c84844fb717b839d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &133657954
 GameObject:
   m_ObjectHideFlags: 0
@@ -2834,6 +2871,7 @@ MonoBehaviour:
   DirectionalLight: {fileID: 376675344}
   Preset: {fileID: 11400000, guid: 2c4ad8e5d1af5614b823aeb17249eaf2, type: 2}
   TimeOfDay: 8.58
+  sozu: {fileID: 92996052}
 --- !u!1001 &384861075
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5269,8 +5307,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860781087}
-  m_LocalRotation: {x: -0.011807026, y: 0.9610105, z: 0.27311793, w: 0.04154513}
-  m_LocalPosition: {x: 3.5635033, y: -13.336088, z: 56.575996}
+  m_LocalRotation: {x: 0.00021231279, y: -0.93583214, z: -0.352446, w: -0.00007992453}
+  m_LocalPosition: {x: 4.36, y: -18.805893, z: 56.62}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7935,8 +7973,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241121355}
-  m_LocalRotation: {x: 0.00021231279, y: -0.93583214, z: -0.352446, w: -0.00007992453}
-  m_LocalPosition: {x: 4.36, y: -18.805893, z: 56.62}
+  m_LocalRotation: {x: 0.06829513, y: -0.9307632, z: -0.28171325, w: -0.2228303}
+  m_LocalPosition: {x: 7.148121, y: -9.173459, z: 39.31531}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
