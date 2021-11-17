@@ -6,21 +6,18 @@ namespace Wacki.IndentSurface
 {
     public class RakeM : MonoBehaviour
     {
+        public AudioSource Noise, SandNoise;
         private bool _mouseDrag = false;
-        public float movementSpeed, rotationSpeed, consty, stopT, X, Y, Z;
-        public AudioSource SandNoise;
+        public float movementSpeed, rotationSpeed, consty, X, Y, Z;
         public Collider[] teeth;
-        void bump(Collider rake)
+        private RayCast check;
+        void bump(Collider rake, Vector3 To)
         {
             Collider[] into = Physics.OverlapBox(rake.bounds.center, rake.bounds.extents, rake.transform.rotation);
 
-            foreach (Collider other in into)
+            if (into.Length > 6 && !Noise.isPlaying)
             {
-                if (other.gameObject.GetComponent<ProdNoise>() != null)
-                {
-                    //Debug.Log("InIn");
-                    //other.gameObject.GetComponent<ProdNoise>().PPlay();
-                }
+                Noise.Play();
             }
         }
 
@@ -37,6 +34,11 @@ namespace Wacki.IndentSurface
             }
         }
 
+        void Start()
+        {
+            check = gameObject.GetComponentInChildren<RayCast>();
+        }
+
         void Update()
         {
             var rake = GetComponent<Rigidbody>();
@@ -50,34 +52,25 @@ namespace Wacki.IndentSurface
             foreach (Collider tooth in teeth)
                 contact(tooth);
 
-            //making sand noises
-            //if (tranform.velocity.magnitude > 1 && !SandNoise.isPlaying)
-            //SandNoise.Play();
             if (_mouseDrag && Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
             {
+                //making sand noises
+                if (!SandNoise.isPlaying)
+                    SandNoise.Play();
                 Vector3 To = hit.point;
                 To.y = consty;
                 Vector3 relativePos = transform.position - To;
                 Quaternion rotation = Quaternion.LookRotation(relativePos);
 
-                //find start cus unity big gay
-                Vector3 from = new Vector3(transform.position.x - X, transform.position.y - Y, transform.position.z - Z);
-                Debug.DrawRay(from, To-from, Color.white);
-                //check if there is some thing in the way
-                RaycastHit temp;
-                if (Physics.Raycast(from, To-from, out temp))
-                {
-                    To = temp.point;
-                    Debug.DrawRay(from, To-from, Color.red);
-                    Debug.Log(temp.collider.gameObject.name);
-                }
+                relativePos.y += 0.5f;
+                To = check.R(To, -relativePos);
                 To.y = consty;
 
+                bump(rake.GetComponent<Collider>(), To);
                 Quaternion currentQ = transform.localRotation;
                 Vector3 currentV = transform.localPosition;
                 transform.rotation = Quaternion.Lerp(currentQ, rotation, rotationSpeed * Time.deltaTime);
                 transform.position = Vector3.Lerp(currentV, To, movementSpeed * Time.deltaTime);
-                bump(rake.GetComponent<Collider>());
             }
         }
     }
