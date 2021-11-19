@@ -8,7 +8,7 @@ namespace Wacki.IndentSurface
     {
         public AudioSource Noise, SandNoise;
         private bool _mouseDrag = false;
-        public float movementSpeed, rotationSpeed, consty, X, Y, Z;
+        public float movementSpeed, rotationSpeed, consty;
         public Collider[] teeth;
         private RayCast check;
         void bump(Collider rake, Vector3 To)
@@ -62,7 +62,7 @@ namespace Wacki.IndentSurface
                 Vector3 relativePos = transform.position - To;
                 Quaternion rotation = Quaternion.LookRotation(relativePos);
 
-                relativePos.y += 0.5f;
+                relativePos.y += 0.1f;
                 To = check.R(To, -relativePos);
                 To.y = consty;
 
