@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Sounds : MonoBehaviour
 {
-    public float intervalStart, intervalEnd, timeDay, interval;
+    public float[] intervalStart, intervalEnd;
+    public float timeDay, interval;
     //Allan's comments here for you
     //timeDay = length of day in seconds
     //intervalStart and End are the interval that the sound can start and end.
@@ -15,9 +16,7 @@ public class Sounds : MonoBehaviour
 
 
     private float nextTime, soundLength;
-    private Animator sozuAnimation;
-    [SerializeField] private GameObject sozu;
-    private float TimeOfDay;
+    private int i;
     void Start()
     {
         soundLength = Noise.clip.length;
@@ -25,21 +24,19 @@ public class Sounds : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         float temp = Time.time % timeDay;
+        if (temp < intervalStart[i]) i = 0;
+        while (i + 1 < intervalStart.Length && temp > intervalStart[i + 1]) i++;
         //temp is how many seconds you are into a new day.
 
         //template for noise:
-        if (temp > intervalStart && temp < intervalEnd && nextTime < temp)
+        if (temp > intervalStart[i] && temp < intervalEnd[i] && nextTime < temp)
         {
             if (!Noise.isPlaying)
             {
                 nextTime = (temp + soundLength + interval) % timeDay;
                 Noise.Play();
             }
-
         }
-
-
     }
 }

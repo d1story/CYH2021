@@ -15,7 +15,7 @@ namespace Wacki.IndentSurface
         {
             Collider[] into = Physics.OverlapBox(rake.bounds.center, rake.bounds.extents, rake.transform.rotation);
 
-            if (into.Length > 6 && !Noise.isPlaying)
+            if (into.Length > 4 && !Noise.isPlaying)
             {
                 Noise.Play();
             }
@@ -63,7 +63,7 @@ namespace Wacki.IndentSurface
                 Vector3 relativePos = transform.position - To;
                 Quaternion rotation = Quaternion.LookRotation(relativePos);
 
-                relativePos.y += 0.1f;
+                relativePos.y += 0.0f;
                 To = check.R(To, -relativePos);
                 To.y = consty;
 
@@ -73,6 +73,7 @@ namespace Wacki.IndentSurface
                 transform.rotation = Quaternion.Lerp(currentQ, rotation, rotationSpeed * Time.deltaTime);
                 transform.position = Vector3.Lerp(currentV, To, movementSpeed * Time.deltaTime);
             }
+            else SandNoise.Stop();
         }
     }
 }
