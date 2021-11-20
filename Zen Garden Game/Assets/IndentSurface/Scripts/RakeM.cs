@@ -57,6 +57,7 @@ namespace Wacki.IndentSurface
                 //making sand noises
                 if (!SandNoise.isPlaying)
                     SandNoise.Play();
+
                 Vector3 To = hit.point;
                 To.y = consty;
                 Vector3 relativePos = transform.position - To;
