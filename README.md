@@ -4,6 +4,7 @@
 - Allan Hu
 - James Wen
 - Matthew Wang
+
 This project was made in Unity 2020.3.12f1 in the Standard Render Pipeline.
 
 ## How to open
